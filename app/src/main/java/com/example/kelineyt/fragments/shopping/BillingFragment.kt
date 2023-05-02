@@ -36,7 +36,7 @@ class BillingFragment : Fragment() {
     private val addressAdapter by lazy { AddressAdapter() }
     private val billingProductsAdapter by lazy { BillingProductsAdapter() }
     private val billingViewModel by viewModels<BillingViewModel>()
-    private val args by navArgs<BillingFragmentArgs>()
+//    private val args by navArgs<BillingFragmentArgs>()
     private var products = emptyList<CartProduct>()
     private var totalPrice = 0f
 
@@ -46,8 +46,8 @@ class BillingFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        products = args.products.toList()
-        totalPrice = args.totalPrice
+//        products = args.products.toList()
+//        totalPrice = args.totalPrice
     }
 
     override fun onCreateView(
@@ -66,7 +66,7 @@ class BillingFragment : Fragment() {
         setupAddressRv()
 
         binding.imageAddAddress.setOnClickListener {
-            findNavController().navigate(R.id.action_billingFragment_to_addressFragment)
+//            findNavController().navigate(R.id.action_billingFragment_to_addressFragment)
         }
 
         lifecycleScope.launchWhenStarted {
