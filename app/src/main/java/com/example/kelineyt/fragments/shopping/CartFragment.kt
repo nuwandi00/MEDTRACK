@@ -65,10 +65,10 @@ class CartFragment : Fragment(R.layout.fragment_cart) {
             viewModel.changeQuantity(it, FirebaseCommon.QuantityChanging.DECREASE)
         }
 
-        binding.buttonCheckout.setOnClickListener {
-            val action = CartFragmentDirections.actionCartFragmentToBillingFragment2(totalPrice,cartAdapter.differ.currentList.toTypedArray())
-            findNavController().navigate(action)
-        }
+//        binding.buttonCheckout.setOnClickListener {
+//            val action = CartFragmentDirections.actionCartFragmentToBillingFragment2(totalPrice,cartAdapter.differ.currentList.toTypedArray())
+//            findNavController().navigate(action)
+//        }
 
 
 
