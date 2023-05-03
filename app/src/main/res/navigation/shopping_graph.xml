@@ -52,6 +52,9 @@
         <action
             android:id="@+id/action_profileFragment_to_requestMedicine"
             app:destination="@id/requestMedicine" />
+        <action
+            android:id="@+id/action_profileFragment_to_schedulingFragment"
+            app:destination="@id/schedulingFragment" />
     </fragment>
     <fragment
         android:id="@+id/productDetailsFragment"
@@ -95,4 +98,8 @@
         android:id="@+id/requestMedicine"
         android:name="com.example.kelineyt.fragments.shopping.requestMedicine"
         android:label="requestMedicine" />
+    <fragment
+        android:id="@+id/schedulingFragment"
+        android:name="com.example.kelineyt.fragments.shopping.SchedulingFragment"
+        android:label="SchedulingFragment" />
 </navigation>
