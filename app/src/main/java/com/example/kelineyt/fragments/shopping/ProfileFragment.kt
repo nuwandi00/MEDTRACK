@@ -45,7 +45,8 @@ class ProfileFragment : Fragment() {
         }
 
         binding.linearAllOrders.setOnClickListener {
-            findNavController().navigate(R.id.action_profileFragment_to_ordersFragment)
+           // findNavController().navigate(R.id.action_profileFragment_to_ordersFragment)
+            findNavController().navigate(R.id.action_profileFragment_to_requestMedicine)
         }
 
         binding.linearBilling.setOnClickListener {
