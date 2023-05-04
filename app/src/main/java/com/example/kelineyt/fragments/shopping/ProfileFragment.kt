@@ -13,13 +13,13 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
-import com.example.kelineyt.BuildConfig
 import com.example.kelineyt.R
 import com.example.kelineyt.activities.LoginRegisterActivity
 import com.example.kelineyt.databinding.FragmentProfileBinding
 import com.example.kelineyt.util.Resource
 import com.example.kelineyt.util.showBottomNavigationView
 import com.example.kelineyt.viewmodel.ProfileViewModel
+import com.google.firebase.BuildConfig
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 
@@ -45,8 +45,13 @@ class ProfileFragment : Fragment() {
         }
 
         binding.linearAllOrders.setOnClickListener {
-            findNavController().navigate(R.id.action_profileFragment_to_ordersFragment)
+            // findNavController().navigate(R.id.action_profileFragment_to_ordersFragment)
+            findNavController().navigate(R.id.action_profileFragment_to_requestMedicine)
         }
+
+       binding.linearTrackOrder.setOnClickListener {
+            findNavController().navigate(R.id.action_profileFragment_to_schedulingFragment)
+     }
 
         binding.linearBilling.setOnClickListener {
 //            val action = ProfileFragmentDirections.actionProfileFragmentToBillingFragment(
@@ -66,7 +71,10 @@ class ProfileFragment : Fragment() {
             requireActivity().finish()
         }
 
-        binding.tvVersion.text = "Version ${BuildConfig.VERSION_CODE}"
+        binding.tvVersion.text = buildString {
+        append("Version ")
+        append(BuildConfig.VERSION_NAME)
+    }
 
         lifecycleScope.launchWhenStarted {
             viewModel.user.collectLatest {
@@ -96,7 +104,6 @@ class ProfileFragment : Fragment() {
         showBottomNavigationView()
     }
 }
-
 
 
 
