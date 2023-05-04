@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/feedbacklist"
+        android:layout_width="410dp"
+        android:layout_height="139dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/search_icon_background" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="51dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintStart_toEndOf="@+id/fbName"
+        app:layout_constraintTop_toTopOf="@+id/feedbacklist"
+        app:srcCompat="@drawable/baseline_keyboard_arrow_right_24" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="53dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/feedbacklist"
+        app:layout_constraintEnd_toEndOf="@+id/feedbacklist"
+        app:srcCompat="@drawable/baseline_person_pin_24" />
+
+    <TextView
+        android:id="@+id/fbName"
+        android:layout_width="272dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="19dp"
+        android:text="Candidate app is good butit make me easy to search medication in this throigh the app"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/feedbacklist"
+        app:layout_constraintStart_toStartOf="@+id/feedbacklist"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/namefd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="230dp"
+        android:text="Ann"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/feedbacklist"
+        app:layout_constraintTop_toTopOf="@+id/feedbacklist" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
