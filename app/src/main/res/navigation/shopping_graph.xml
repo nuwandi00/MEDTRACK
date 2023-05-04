@@ -49,6 +49,9 @@
         <action
             android:id="@+id/action_profileFragment_to_feedbackFragment"
             app:destination="@id/feedbackFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_requestMedicine"
+            app:destination="@id/requestMedicine" />
     </fragment>
     <fragment
         android:id="@+id/productDetailsFragment"
@@ -87,5 +90,17 @@
     <fragment
         android:id="@+id/feedbackFragment"
         android:name="com.example.kelineyt.fragments.shopping.FeedbackFragment"
-        android:label="FeedbackFragment" />
+        android:label="FeedbackFragment" >
+        <action
+            android:id="@+id/action_feedbackFragment_to_feedbackListFragment"
+            app:destination="@id/feedbackListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/feedbackListFragment"
+        android:name="com.example.kelineyt.fragments.shopping.FeedbackListFragment"
+        android:label="FeedbackListFragment" />
+    <fragment
+        android:id="@+id/requestMedicine"
+        android:name="com.example.kelineyt.fragments.shopping.requestMedicine"
+        android:label="requestMedicine" />
 </navigation>
