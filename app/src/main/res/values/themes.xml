@@ -15,4 +15,9 @@
     </style>
 
 
+    <style name="RoundConer" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="color">@color/white</item>
+    </style>
+
 </resources>

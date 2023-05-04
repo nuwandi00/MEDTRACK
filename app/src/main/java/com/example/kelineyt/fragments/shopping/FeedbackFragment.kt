@@ -1,5 +1,6 @@
 package com.example.kelineyt.fragments.shopping
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import com.example.kelineyt.R
 import com.example.kelineyt.data.feedback
 import com.google.firebase.auth.FirebaseAuth
@@ -60,7 +62,13 @@ class FeedbackFragment : Fragment() {
         sendFeedback = view.findViewById(R.id.btnFeedback)
 
         sendFeedback.setOnClickListener {
-            setFeedback()
+            if(name.text.isNotEmpty() && comment.text.isNotEmpty()) {
+                setFeedback()
+                findNavController().navigate(R.id.action_feedbackFragment_to_feedbackListFragment)
+            } else {
+                Toast.makeText(activity,"Please fill input fields",Toast.LENGTH_SHORT).show()
+            }
+
         }
         return view
     }
