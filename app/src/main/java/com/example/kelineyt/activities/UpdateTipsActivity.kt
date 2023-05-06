@@ -88,7 +88,7 @@ class UpdateTipsActivity: AppCompatActivity() {
 
         database.child(Tips).setValue(updatedHealthyTips)
             .addOnCompleteListener{
-                Toast.makeText(this , "Feedback Updated" , Toast.LENGTH_SHORT).show()
+                Toast.makeText(this , "Tips Updated" , Toast.LENGTH_SHORT).show()
             }.addOnFailureListener {
                 Toast.makeText(this , "Error" , Toast.LENGTH_SHORT).show()
             }

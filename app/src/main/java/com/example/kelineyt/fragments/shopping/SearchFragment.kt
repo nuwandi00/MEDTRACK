@@ -16,7 +16,7 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import java.util.*
 
-class tipsFragment: Fragment() {
+class SearchFragment: Fragment() {
     private lateinit var Tdocname: EditText
     private lateinit var tipscomment: EditText
     private lateinit var addtipsbtn: Button
