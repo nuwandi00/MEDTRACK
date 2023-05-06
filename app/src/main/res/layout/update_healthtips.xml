@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/healthtip_desedt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/tips_top"
+        android:layout_width="418dp"
+        android:layout_height="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/request_top" />
+
+    <TextView
+        android:id="@+id/tips_edtdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Update Health Tips"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tips_top"
+        app:layout_constraintEnd_toEndOf="@+id/tips_top"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="@+id/tips_top"
+        app:layout_constraintTop_toTopOf="@+id/tips_top"
+        app:layout_constraintVertical_bias="0.568" />
+
+
+    <TextView
+        android:id="@+id/update_slogan"
+        style="@style/h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Good Health means Your Everything"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tips_top"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <EditText
+        android:id="@+id/doctor_Nameedts"
+        style="@style/editText"
+        android:layout_width="372dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/textview_background"
+        android:hint="Doctor Name"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#B1C0B4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/update_slogan" />
+
+    <EditText
+        android:id="@+id/health_tipsedts"
+        style="@style/editText"
+        android:layout_width="363dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textview_background"
+        android:hint="Add Health Tips"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#B1C0B4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doctor_Nameedts" />
+
+    <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+        android:id="@+id/edt_tipsbtns"
+        style="@style/blueButtonStyle"
+        android:layout_width="156dp"
+        android:layout_height="61dp"
+
+        android:layout_marginBottom="160dp"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:spinning_bar_color="@color/white" />
+
+    <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+        android:id="@+id/delete_tips3btnn"
+        style="@style/blueButtonStyle"
+        android:layout_width="156dp"
+        android:layout_height="61dp"
+
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="160dp"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edt_tipsbtns"
+        app:spinning_bar_color="@color/white" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
