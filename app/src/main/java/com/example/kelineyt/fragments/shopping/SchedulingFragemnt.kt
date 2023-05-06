@@ -22,6 +22,7 @@ private const val ARG_PARAM2 = "param2"
 class SchedulingFragment : Fragment() {
     private lateinit var addAvailability: Button
     private lateinit var viewAvailability: Button
+    private lateinit var rating: Button
 //    private var param1: String? = null
 //    private var param2: String? = null
 
@@ -49,6 +50,7 @@ class SchedulingFragment : Fragment() {
         val view = inflater.inflate(R.layout.available_details, container, false)
         addAvailability = view.findViewById(R.id.adding)
         viewAvailability = view.findViewById(R.id.viewAva)
+        rating = view.findViewById(R.id.rateUs)
 
         addAvailability.setOnClickListener {
 
@@ -58,7 +60,9 @@ class SchedulingFragment : Fragment() {
             findNavController().navigate(R.id.action_schedulingFragment_to_addAvailabilityListFragment)
         }
 
-
+        rating.setOnClickListener{
+            findNavController().navigate(R.id.action_schedulingFragment_to_ratingActivity)
+        }
 
         return view
 
