@@ -1,6 +1,5 @@
 package com.example.kelineyt.fragments.shopping
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -15,8 +14,6 @@ import com.example.kelineyt.data.feedback
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.database.ValueEventListener
-import org.w3c.dom.Comment
 import java.util.UUID
 
 // TODO: Rename parameter arguments, choose names that match
@@ -57,9 +54,9 @@ class FeedbackFragment : Fragment() {
         dbref = FirebaseDatabase.getInstance().getReference("Feedback")
 
         val view = inflater.inflate(R.layout.feedback_fragment, container, false)
-        name = view.findViewById(R.id.feedbackName)
-        comment = view.findViewById(R.id.feedbackComment)
-        sendFeedback = view.findViewById(R.id.btnFeedback)
+        name = view.findViewById(R.id.editfeedbackName)
+        comment = view.findViewById(R.id.editfeedbackComment)
+        sendFeedback = view.findViewById(R.id.editfdbtnupdate)
 
         sendFeedback.setOnClickListener {
             if(name.text.isNotEmpty() && comment.text.isNotEmpty()) {

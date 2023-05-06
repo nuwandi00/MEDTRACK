@@ -13,10 +13,35 @@ import com.google.android.material.imageview.ShapeableImageView
 
 class FeedbackAdapter(private val feedBackList: java.util.ArrayList<feedback>):RecyclerView.Adapter<FeedbackAdapter.MyViewHolder>() {
 
+    private lateinit var mListener: onItemClickListener
+
+    interface onItemClickListener{
+        fun onItemClick(position:Int)
+        }
+
+    fun setOnItemClickListener(listener: onItemClickListener) {
+        mListener =listener
+        }
+
+    class MyViewHolder(itemView: View , listener: onItemClickListener):RecyclerView.ViewHolder(itemView){
+        var fdName : TextView
+        var comment : TextView
+
+        init {
+            fdName =  itemView.findViewById(R.id.namefd)
+            comment =  itemView.findViewById(R.id.fbName)
+
+            itemView.setOnClickListener {
+                listener.onItemClick(adapterPosition)
+            }
+        }
+
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
 
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_frgamentfeedback,parent,false)
-        return MyViewHolder(itemView)
+        return MyViewHolder(itemView,mListener)
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
@@ -30,12 +55,7 @@ class FeedbackAdapter(private val feedBackList: java.util.ArrayList<feedback>):R
 //        holder.comment.text = "dtfyuuyouyh"
     }
 
-    class MyViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
-        var fdName : TextView = itemView.findViewById(R.id.namefd)
-        var comment : TextView = itemView.findViewById(R.id.fbName)
 
-
-    }
 
     override fun getItemCount(): Int {
 //        Log.d(TAG,feedBackList.size.toString())

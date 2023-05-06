@@ -72,7 +72,7 @@ class requestMedicine : Fragment() {
         var userID : String = auth.currentUser?.uid.toString()
         var Medicine : String = medicinename.text.toString()
         var Number: String = contactnumber.text.toString()
-        var Email: String = contactnumber.text.toString()
+        var Email: String = email.text.toString()
 
         val uniqueID : String = UUID.randomUUID().toString()
         var requestMedicineDet = requestmedicine(userID,Medicine,Number,Email)
