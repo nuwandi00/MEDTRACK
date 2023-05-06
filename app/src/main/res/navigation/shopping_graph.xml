@@ -16,12 +16,15 @@
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.example.kelineyt.fragments.shopping.SearchFragment"
+        android:name="com.example.kelineyt.fragments.shopping.tipsFragment"
         android:label="SearchFragment"
         tools:layout="@layout/fragment_search">
         <action
             android:id="@+id/action_searchFragment_to_productDetailsFragment"
             app:destination="@id/productDetailsFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_tipListFragment"
+            app:destination="@id/tipListFragment" />
     </fragment>
     <fragment
         android:id="@+id/cartFragment"
@@ -52,6 +55,9 @@
         <action
             android:id="@+id/action_profileFragment_to_requestMedicine"
             app:destination="@id/requestMedicine" />
+        <action
+            android:id="@+id/action_profileFragment_to_schedulingFragment"
+            app:destination="@id/schedulingFragment" />
     </fragment>
     <fragment
         android:id="@+id/productDetailsFragment"
@@ -102,5 +108,22 @@
     <fragment
         android:id="@+id/requestMedicine"
         android:name="com.example.kelineyt.fragments.shopping.requestMedicine"
-        android:label="requestMedicine" />
+        android:label="requestMedicine" >
+        <action
+            android:id="@+id/action_requestMedicine_to_requestMedicineListFragment"
+            app:destination="@id/requestMedicineListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/schedulingFragment"
+        android:name="com.example.kelineyt.fragments.shopping.SchedulingFragment"
+        android:label="SchedulingFragment" />
+    <fragment
+        android:id="@+id/requestMedicineListFragment"
+        android:name="com.example.kelineyt.fragments.shopping.RequestMedicineListFragment"
+        android:label="RequestMedicineListFragment" />
+    <include app:graph="@navigation/login_register_graph" />
+    <fragment
+        android:id="@+id/tipListFragment"
+        android:name="com.example.kelineyt.fragments.shopping.tipListFragment"
+        android:label="tipListFragment" />
 </navigation>

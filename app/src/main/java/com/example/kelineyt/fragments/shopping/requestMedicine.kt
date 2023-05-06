@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import com.example.kelineyt.R
 import com.example.kelineyt.data.feedback
 import com.example.kelineyt.data.requestmedicine
@@ -60,15 +61,23 @@ class requestMedicine : Fragment() {
         email = view.findViewById(R.id.medemail)
         requestmedicine = view.findViewById(R.id.btn_request)
 
-        requestmedicine.setOnClickListener {
-            //Toast.makeText(activity , "clicked" , Toast.LENGTH_LONG).show()
-            setrequestmedicine()
-        }
 
+        requestmedicine.setOnClickListener {
+            if (medicinename.text.isNotEmpty() && contactnumber.text.isNotEmpty() && email.text.isNotEmpty()) {
+                setmedicine()
+                findNavController().navigate(R.id.action_requestMedicine_to_requestMedicineListFragment)
+            } else {
+                Toast.makeText(activity, "Please fill input fields", Toast.LENGTH_SHORT).show()
+            }
+        }
         return view
     }
 
-    private fun setrequestmedicine() {
+
+
+
+
+    private fun setmedicine() {
         var userID : String = auth.currentUser?.uid.toString()
         var Medicine : String = medicinename.text.toString()
         var Number: String = contactnumber.text.toString()
