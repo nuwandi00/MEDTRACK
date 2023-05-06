@@ -61,7 +61,7 @@
         android:layout_marginStart="-5dp"
         android:layout_marginEnd="-5dp"
         android:background="@drawable/header_feedback"
-        android:text="   FEEDBACK"
+        android:text="    MY FEEDBACK"
         android:textAlignment="center"
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="28sp"
@@ -81,12 +81,22 @@
         app:srcCompat="@drawable/feed" />
 
     <Button
+        android:id="@+id/fdeditbtndelete"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="36dp"
+        android:text="Delete"
+        app:layout_constraintStart_toEndOf="@+id/editfdbtnupdate"
+        app:layout_constraintTop_toBottomOf="@+id/fdimageView7" />
+
+    <Button
         android:id="@+id/editfdbtnupdate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="28dp"
-        android:text="send feedback"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="36dp"
+        android:text="Update"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fdimageView7" />
 </androidx.constraintlayout.widget.ConstraintLayout>

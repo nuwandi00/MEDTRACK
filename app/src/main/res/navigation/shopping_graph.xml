@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.example.kelineyt.fragments.shopping.tipsFragment"
+        android:name="com.example.kelineyt.fragments.shopping.SearchFragment"
         android:label="SearchFragment"
         tools:layout="@layout/fragment_search">
         <action
@@ -56,8 +56,8 @@
             android:id="@+id/action_profileFragment_to_requestMedicine"
             app:destination="@id/requestMedicine" />
         <action
-            android:id="@+id/action_profileFragment_to_schedulingFragment"
-            app:destination="@id/schedulingFragment" />
+            android:id="@+id/action_profileFragment_to_schedulingFragment2"
+            app:destination="@id/schedulingFragment2" />
     </fragment>
     <fragment
         android:id="@+id/productDetailsFragment"
@@ -114,14 +114,13 @@
             app:destination="@id/requestMedicineListFragment" />
     </fragment>
     <fragment
-        android:id="@+id/schedulingFragment"
+        android:id="@+id/schedulingFragment2"
         android:name="com.example.kelineyt.fragments.shopping.SchedulingFragment"
         android:label="SchedulingFragment" />
     <fragment
         android:id="@+id/requestMedicineListFragment"
         android:name="com.example.kelineyt.fragments.shopping.RequestMedicineListFragment"
         android:label="RequestMedicineListFragment" />
-    <include app:graph="@navigation/login_register_graph" />
     <fragment
         android:id="@+id/tipListFragment"
         android:name="com.example.kelineyt.fragments.shopping.tipListFragment"

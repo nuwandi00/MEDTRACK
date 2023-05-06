@@ -1,6 +1,7 @@
 package com.example.kelineyt.fragments.shopping
 
 import android.content.ContentValues.TAG
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -11,6 +12,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.kelineyt.R
+import com.example.kelineyt.activities.edit_fb_Activity
 import com.example.kelineyt.adapters.FeedbackAdapter
 import com.example.kelineyt.data.feedback
 import com.google.firebase.database.DataSnapshot
@@ -56,18 +58,29 @@ class FeedbackListFragment : Fragment() {
             override fun onDataChange(snapshot: DataSnapshot) {
                 if (snapshot.exists()) {
                     feedBackList = arrayListOf()
+                    val KeyList = arrayListOf<String>()
                     for (postSnapshot in snapshot.children) {
 //                        Log.d(TAG,postSnapshot.toString())
                         val feed = postSnapshot.getValue(/*valueType =*/feedback::class.java)
+                        KeyList.add(postSnapshot.key.toString())
                         feedBackList.add(feed!!)
                     }
 
 //                    Log.d(TAG , feedBackList.toString())
 
                     val adapter = FeedbackAdapter(feedBackList)
+                    adapter.setOnItemClickListener(object : FeedbackAdapter.onItemClickListener {
+                        override fun onItemClick(position: Int) {
+                            val intent = Intent(activity, edit_fb_Activity::class.java)
+                            intent.putExtra("name", feedBackList[position].Name)
+                            intent.putExtra("comment", feedBackList[position].Comment)
+                            intent.putExtra("fID", KeyList[position])
+                            startActivity(intent)
+
+                        }
+                    })
                     feedbackRecyclerView.adapter = adapter
                 }
-
             }
 
             override fun onCancelled(error: DatabaseError) {

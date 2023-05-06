@@ -50,7 +50,7 @@ class ProfileFragment : Fragment() {
         }
 
        binding.linearTrackOrder.setOnClickListener {
-            findNavController().navigate(R.id.action_profileFragment_to_schedulingFragment)
+            findNavController().navigate(R.id.action_profileFragment_to_schedulingFragment2)
      }
 
         binding.linearBilling.setOnClickListener {
