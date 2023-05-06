@@ -16,6 +16,13 @@
         <activity
             android:name=".activities.ShoppingActivity"
             android:exported="false" />
+
+        <activity android:name=".activities.UpdateTipsActivity"
+            android:exported="false"/>
+        <activity android:name=".activities.UpdateRequestMedicineActivity"
+                  android:exported="false" />
+
+
         <activity
             android:name=".activities.LoginRegisterActivity"
             android:exported="true" >
