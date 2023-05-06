@@ -87,7 +87,7 @@ class UpdateRequestMedicineActivity: AppCompatActivity() {
 
         database.child(requestmedicine).setValue(updatedRequestMedicine)
             .addOnCompleteListener{
-                Toast.makeText(this , "Feedback Updated" , Toast.LENGTH_SHORT).show()
+                Toast.makeText(this , "Request Medicine Updated" , Toast.LENGTH_SHORT).show()
             }.addOnFailureListener {
                 Toast.makeText(this , "Error" , Toast.LENGTH_SHORT).show()
                 }
