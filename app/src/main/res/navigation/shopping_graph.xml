@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_searchFragment_to_productDetailsFragment"
             app:destination="@id/productDetailsFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_tipListFragment"
+            app:destination="@id/tipListFragment" />
     </fragment>
     <fragment
         android:id="@+id/cartFragment"
@@ -53,8 +56,8 @@
             android:id="@+id/action_profileFragment_to_requestMedicine"
             app:destination="@id/requestMedicine" />
         <action
-            android:id="@+id/action_profileFragment_to_schedulingFragment"
-            app:destination="@id/schedulingFragment" />
+            android:id="@+id/action_profileFragment_to_schedulingFragment2"
+            app:destination="@id/schedulingFragment2" />
     </fragment>
     <fragment
         android:id="@+id/productDetailsFragment"
@@ -105,21 +108,33 @@
     <fragment
         android:id="@+id/requestMedicine"
         android:name="com.example.kelineyt.fragments.shopping.requestMedicine"
-        android:label="requestMedicine" />
+        android:label="requestMedicine" >
+        <action
+            android:id="@+id/action_requestMedicine_to_requestMedicineListFragment"
+            app:destination="@id/requestMedicineListFragment" />
+    </fragment>
     <fragment
-        android:id="@+id/schedulingFragment"
+        android:id="@+id/schedulingFragment2"
         android:name="com.example.kelineyt.fragments.shopping.SchedulingFragment"
         android:label="SchedulingFragment" >
         <action
-            android:id="@+id/action_schedulingFragment_to_addAvailabilityPageFragment22"
+            android:id="@+id/action_schedulingFragment2_to_addAvailabilityPageFragment"
             app:destination="@id/addAvailabilityPageFragment" />
         <action
-            android:id="@+id/action_schedulingFragment_to_addAvailabilityListFragment"
+            android:id="@+id/action_schedulingFragment2_to_addAvailabilityListFragment"
             app:destination="@id/addAvailabilityListFragment" />
         <action
-            android:id="@+id/action_schedulingFragment_to_ratingActivity"
+            android:id="@+id/action_schedulingFragment2_to_ratingActivity"
             app:destination="@id/ratingActivity" />
     </fragment>
+    <fragment
+        android:id="@+id/requestMedicineListFragment"
+        android:name="com.example.kelineyt.fragments.shopping.RequestMedicineListFragment"
+        android:label="RequestMedicineListFragment" />
+    <fragment
+        android:id="@+id/tipListFragment"
+        android:name="com.example.kelineyt.fragments.shopping.tipListFragment"
+        android:label="tipListFragment" />
     <fragment
         android:id="@+id/addAvailabilityPageFragment"
         android:name="com.example.kelineyt.fragments.shopping.AddAvailabilityPageFragment"
