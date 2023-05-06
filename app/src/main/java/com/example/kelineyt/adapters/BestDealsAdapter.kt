@@ -17,12 +17,12 @@ class BestDealsAdapter : RecyclerView.Adapter<BestDealsAdapter.BestDealsViewHold
         fun bind(product: Product) {
             binding.apply {
                 Glide.with(itemView).load(product.images[0]).into(imgBestDeal)
-                product.offerPercentage?.let {
-                    val remainingPricePercentage = 1f - it
-                    val priceAfterOffer = remainingPricePercentage * product.price
-                    tvNewPrice.text = "$ ${String.format("%.2f",priceAfterOffer)}"
-                }
-                tvOldPrice.text = "$ ${product.price}"
+//                product.offerPercentage?.let {
+//                    val remainingPricePercentage = 1f - it
+//                    val priceAfterOffer = remainingPricePercentage * product.price
+//                    tvNewPrice.text = "Rs. ${String.format("%.2f",priceAfterOffer)}.00"
+//                }
+                tvOldPrice.text = "Rs. ${product.price}.00"
                 tvDealProductName.text = product.name
             }
         }
