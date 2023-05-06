@@ -1,7 +1,6 @@
 package com.example.kelineyt.fragments.shopping
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -29,12 +28,14 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         val categoriesFragments = arrayListOf(
             MainCategoryFragment(),
-            ChairFragment(),
-            CupboardFragment(),
-            TableFragment(),
-            AccessoryFragment(),
-            FurnitureFragment()
-        )
+            MedicineFragment(),
+            MedDevicesFragment(),
+            NutritionFragment(),
+            CareFragment(),
+            OtherFragment()
+
+
+            )
 
         binding.viewpagerHome.isUserInputEnabled = false
 
@@ -44,11 +45,11 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         TabLayoutMediator(binding.tabLayout, binding.viewpagerHome) { tab, position ->
             when (position) {
                 0 -> tab.text = "Main"
-                1 -> tab.text = "Chair"
-                2 -> tab.text = "Cupboard"
-                3 -> tab.text = "Table"
-                4 -> tab.text = "Accessory"
-                5 -> tab.text = "Furniture"
+                1 -> tab.text = "Medicine"
+                2 -> tab.text = "Medical Devices"
+                3 -> tab.text = "Nutrition"
+                4 -> tab.text = "Personal Care"
+                5 -> tab.text = "Others"
             }
         }.attach()
     }
