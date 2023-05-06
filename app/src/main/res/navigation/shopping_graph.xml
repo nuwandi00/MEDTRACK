@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_searchFragment_to_productDetailsFragment"
             app:destination="@id/productDetailsFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_tipListFragment"
+            app:destination="@id/tipListFragment" />
     </fragment>
     <fragment
         android:id="@+id/cartFragment"
@@ -52,6 +55,9 @@
         <action
             android:id="@+id/action_profileFragment_to_requestMedicine"
             app:destination="@id/requestMedicine" />
+        <action
+            android:id="@+id/action_profileFragment_to_schedulingFragment2"
+            app:destination="@id/schedulingFragment2" />
     </fragment>
     <fragment
         android:id="@+id/productDetailsFragment"
@@ -102,5 +108,21 @@
     <fragment
         android:id="@+id/requestMedicine"
         android:name="com.example.kelineyt.fragments.shopping.requestMedicine"
-        android:label="requestMedicine" />
+        android:label="requestMedicine" >
+        <action
+            android:id="@+id/action_requestMedicine_to_requestMedicineListFragment"
+            app:destination="@id/requestMedicineListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/schedulingFragment2"
+        android:name="com.example.kelineyt.fragments.shopping.SchedulingFragment"
+        android:label="SchedulingFragment" />
+    <fragment
+        android:id="@+id/requestMedicineListFragment"
+        android:name="com.example.kelineyt.fragments.shopping.RequestMedicineListFragment"
+        android:label="RequestMedicineListFragment" />
+    <fragment
+        android:id="@+id/tipListFragment"
+        android:name="com.example.kelineyt.fragments.shopping.tipListFragment"
+        android:label="tipListFragment" />
 </navigation>
