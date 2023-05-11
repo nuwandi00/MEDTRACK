@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/layoutHeader"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_marginBottom="28dp"-->
+<!--        android:background="@drawable/header_background"-->
+<!--        android:padding="10dp"-->
+<!--        app:layout_constraintBaseline_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/imageView2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontalBias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textMedTrack"-->
+<!--            android:layout_width="177dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_marginStart="68dp"-->
+<!--            android:layout_marginEnd="156dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:text="MedTrack"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="25sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toBottomOf="@id/layoutHeader"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintHorizontalBias="0.5"/>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView3"-->
+<!--            android:layout_width="51dp"-->
+<!--            android:layout_height="34dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:srcCompat="@drawable/baseline_arrow_back_24"-->
+<!--            tools:layout_editor_absoluteX="3dp"-->
+<!--            tools:layout_editor_absoluteY="6dp" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="148dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="#6C5DD1"
+        android:text="Delete"
+        android:textColor="#131313"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="368dp"
+        android:layout_height="520dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="39dp"
+
+        android:layout_marginEnd="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewnew"
+        app:srcCompat="@drawable/search_icon_background" />
+
+    <TextView
+        android:id="@+id/textViewnewq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="486dp"
+        android:text="Update Availability"
+        android:textColor="#231C1C"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/updateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="248dp"
+        android:shadowColor="#0B0B0B"
+        android:text="Doctor's Name"
+        android:textColor="#3E3131"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewnewq" />
+
+    <EditText
+        android:id="@+id/docNameUpdate"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="405dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateName" />
+
+    <TextView
+        android:id="@+id/SpecilitytextUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="220dp"
+        android:shadowColor="#0B0B0B"
+        android:text="Doctor's Specilaity"
+        android:textColor="#3E3131"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/docNameUpdate" />
+
+    <EditText
+        android:id="@+id/SpecilityUpdate"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="44dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="Specility"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SpecilitytextUpdate" />
+
+    <TextView
+        android:id="@+id/AddressUpdatetext"
+        android:layout_width="180dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="4dp"
+        android:shadowColor="#0B0B0B"
+        android:text="Enter available Address"
+        android:textColor="#3E3131"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/AddressUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/SpecilityUpdate" />
+
+    <EditText
+        android:id="@+id/AddressUpdate"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="Address"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddressUpdatetext" />
+
+    <TextView
+        android:id="@+id/textViewUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="8dp"
+        android:text="Enter available Date"
+        android:textColor="#3E3131"
+        android:textSize="15sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddressUpdate" />
+
+    <EditText
+        android:id="@+id/DateUpdate"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Day/Month/Year"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUpdate"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView7Update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:text="Enter available time period"
+        android:textColor="#3E3131"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DateUpdate" />
+
+    <TextView
+        android:id="@+id/textView10Update"
+        android:layout_width="48dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="24dp"
+        android:text="From"
+        android:textColor="#151212"
+        android:textSize="15sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toStartOf="@+id/FromUpdate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7Update" />
+
+    <TextView
+        android:id="@+id/textView11Update"
+        android:layout_width="38dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginBottom="28dp"
+        android:text="To"
+        android:textColor="#151212"
+        android:textSize="15sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox1"
+        app:layout_constraintEnd_toStartOf="@+id/toUpdate"
+        app:layout_constraintStart_toEndOf="@+id/FromUpdate" />
+
+    <EditText
+        android:id="@+id/FromUpdate"
+        android:layout_width="74dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="18dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView10Update"
+        app:layout_constraintTop_toBottomOf="@+id/textView7Update"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/toUpdate"
+        android:layout_width="75dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView11Update"
+        app:layout_constraintTop_toBottomOf="@+id/textView7Update"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="304dp"
+        android:layout_height="45dp"
+
+        android:layout_marginTop="471dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="4dp"
+        android:text="Hereby I confirm above details are correct"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="148dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="#6C5DD1"
+        android:text="Update"
+        android:textColor="#131313"
+        app:layout_constraintEnd_toStartOf="@+id/Delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textViewnew"
+        android:layout_width="419dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="39dp"
+        android:background="#6C5DD1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="17dp"
+        android:text="MEDTRACK"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewnew"
+        app:layout_constraintEnd_toEndOf="@+id/textViewnew" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="376dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewnew"
+        app:layout_constraintStart_toStartOf="@+id/textViewnew"
+        app:layout_constraintTop_toTopOf="@+id/textViewnew"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -25,6 +25,9 @@ private const val ARG_PARAM2 = "param2"
  * Use the [RequestMedicineListFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
+
+// Fragment to display the list of requested medicines
+//initialize
 class RequestMedicineListFragment : Fragment() {
     private lateinit var database: DatabaseReference
     private lateinit var RequestMedicineList: ArrayList<requestmedicine>
@@ -57,7 +60,9 @@ class RequestMedicineListFragment : Fragment() {
 
     }
 
+//get  data from database
     private fun getRequestMedicineData() {
+        //obtain reference to Posts node of firebase realtime database
         database = FirebaseDatabase.getInstance().getReference("RequestMedicine")
 
         database.addValueEventListener(object : ValueEventListener {
@@ -65,18 +70,21 @@ class RequestMedicineListFragment : Fragment() {
                 if (snapshot.exists()) {
                     RequestMedicineList = arrayListOf()
                     val KeyList = arrayListOf<String>()
+                    // Iterate through the children of the snapshot to retrieve each requested medicine
                     for (postSnapshot in snapshot.children) {
 //                        Log.d(TAG,postSnapshot.toString())
+                        // Retrieve the requested medicine object from the snapshot
                         val feed = postSnapshot.getValue(/*valueType =*/requestmedicine::class.java)
                         KeyList.add(postSnapshot.key.toString())
+                        // Add the requested medicine to the list
                         RequestMedicineList.add(feed!!)
                     }
 
-
-
+                    // Create and set up the adapter with the requested medicine list
                     val adapter = RequestMedicineAdapter(RequestMedicineList)
                     adapter.setOnItemClickListener(object : RequestMedicineAdapter.onItemClickListener {
                         override fun onItemClick(position: Int) {
+                            // Open UpdateRequestMedicineActivity and pass relevant data
                             val intent = Intent(activity, UpdateRequestMedicineActivity::class.java)
                             intent.putExtra("medicine name",RequestMedicineList[position].Medicine)
                             intent.putExtra("number", RequestMedicineList[position].Number)
@@ -92,6 +100,7 @@ class RequestMedicineListFragment : Fragment() {
             }
 
             override fun onCancelled(error: DatabaseError) {
+                // Display a toast message if there is a database error
                 Toast.makeText(context,"$error",Toast.LENGTH_LONG).show()
             }
 

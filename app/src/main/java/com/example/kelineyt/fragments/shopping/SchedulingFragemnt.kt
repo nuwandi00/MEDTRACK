@@ -54,14 +54,14 @@ class SchedulingFragment : Fragment() {
 
         addAvailability.setOnClickListener {
 
-            findNavController().navigate(R.id.action_schedulingFragment_to_addAvailabilityPageFragment22)
+            findNavController().navigate(R.id.action_schedulingFragment2_to_addAvailabilityPageFragment)
         }
         viewAvailability.setOnClickListener{
-            findNavController().navigate(R.id.action_schedulingFragment_to_addAvailabilityListFragment)
+            findNavController().navigate(R.id.action_schedulingFragment2_to_addAvailabilityListFragment)
         }
 
         rating.setOnClickListener{
-            findNavController().navigate(R.id.action_schedulingFragment_to_ratingActivity)
+            findNavController().navigate(R.id.action_schedulingFragment2_to_ratingActivity)
         }
 
         return view

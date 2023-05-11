@@ -1,0 +1,566 @@
+[
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_product_details.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_product_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_activity_shopping.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\activity_shopping.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_track.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\track.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_activity_healthtips.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\activity_healthtips.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\anim_to_right.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\anim\\to_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_activity_requestmedicineupdatedelete.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\activity_requestmedicineupdatedelete.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_billing_products_rv_item.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\billing_products_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_feed.jpg.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\feed.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_list_fragmentrequestmedicine.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\list_fragmentrequestmedicine.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_baseline_check_circle_24.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\baseline_check_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_texture_left.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_texture_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_white_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\white_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_add_availability.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\add_availability.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_address.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_blury_background.jpg.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\blury_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_list_frgamentfeedback.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\list_frgamentfeedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_bottom_navigation_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\bottom_navigation_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\menu_bottom_navigation_menu.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\menu\\bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_top_signup.png.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\top_signup.png"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_empty_box.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_empty_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_base_category.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_base_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_baseline_arrow_back_24_new.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\baseline_arrow_back_24_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\font_poppins.ttf.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\font\\poppins.ttf"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_requestmedlist_fragment.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\requestmedlist_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_request_top.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\request_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_cart.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_tip_list.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\tip_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_feedback_fragment.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\feedback_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_update_availability.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\update_availability.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_search_box_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\search_box_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_edit_feedback.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\edit_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\font_poppins_thin.ttf.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\font\\poppins_thin.ttf"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_total_box_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\total_box_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_header_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\header_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_main_category.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_main_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_distance.png.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\distance.png"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_ic_notification.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\ic_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_color_rv_item.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\color_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_empty_box_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\empty_box_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_google_login.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\google_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\font_poppins_light.ttf.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\font\\poppins_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_icon_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_medtrack.png.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\medtrack.png"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_user_account.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_user_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_edges.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\edges.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_reset_passowrd_dialog.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\reset_passowrd_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_ic_logout.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_blue_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\blue_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_texture_left.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\texture_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_adddetails.png.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\adddetails.png"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_baseline_tips_and_updates_24.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\baseline_tips_and_updates_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_ic_language.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\ic_language.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_microphone.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_microphone.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_baseline_favorite_border_24.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\baseline_favorite_border_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_available_details.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\available_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_ic_billing.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\ic_billing.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_ic_location.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\anim_from_bottom.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\anim\\from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_doctor_availability_view.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\doctor_availability_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\anim_from_left.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\anim\\from_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_scheduling_list_frgment.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\scheduling_list_frgment.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_bottom_nav_item_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\bottom_nav_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_connect.png.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\connect.png"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_minus.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_minus.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_special_rv_item.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\special_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\anim_from_right.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\anim\\from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_ic_arrow.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\ic_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_ic_all_orders.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\ic_all_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_size_rv_item.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\size_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_order_item.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\order_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_baseline_person_pin_24.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\baseline_person_pin_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_white_rectangle_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\white_rectangle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_account_options.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_account_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_unselected_button_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\unselected_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_introdcution.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_introdcution.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_ic_add.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_texture_right.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\texture_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_product_rv_item.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\product_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\font_sf_pro_display.OTF.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\font\\sf_pro_display.OTF"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_activity_requestmedicine.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\activity_requestmedicine.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_plus.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_viewpager_image_item.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\viewpager_image_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_register.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_cart_product_item.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\cart_product_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_cart.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_settings_items_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\settings_items_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_facebook_login.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\facebook_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_textview_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\textview_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_search_icon_background.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\search_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_order_detail.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_order_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_list_fragmenttips.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\list_fragmenttips.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\navigation_shopping_graph.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\navigation\\shopping_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\anim_to_left.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\anim\\to_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_header_feedback.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\header_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_empty_box_texture.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_empty_box_texture.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_address_rv_item.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\address_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_picked.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_picked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_white_backgrounddesign.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\white_backgrounddesign.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_actitivty_login_register.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\actitivty_login_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_baseline_account_box_24.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\baseline_account_box_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_update_healthtips.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\update_healthtips.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_baseline_keyboard_arrow_right_24.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\baseline_keyboard_arrow_right_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_settings_items_backgroundtips.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\settings_items_backgroundtips.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_feedback_fragment.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\feedback_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_myfeedbacklis_fragment.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\myfeedbacklis_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_best_deals_rv_item.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\best_deals_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_favorite.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_scan.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_ellips.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\ellips.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_texture_right.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_texture_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable-v24_ic_kleine_shape.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable-v24\\ic_kleine_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_my_scheduling_list_frgment.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\my_scheduling_list_frgment.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "com.example.kelineyt.app-merged_res-55:/layout_activity_healthtips.xml.flat",
+        "source": "com.example.kelineyt.app-main-57:/layout/activity_healthtips.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_rating.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\rating.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\navigation_login_register_graph.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\navigation\\login_register_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_orders.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\drawable_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\drawable\\baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-merged_res-55:\\layout_fragment_billing.xml.flat",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_billing.xml"
+    }
+]

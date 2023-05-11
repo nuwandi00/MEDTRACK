@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\viewpager_image_item.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\viewpager_image_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\activity_requestmedicineupdatedelete.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\activity_requestmedicineupdatedelete.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\doctor_availability_view.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\doctor_availability_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\order_item.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\order_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_orders.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_order_detail.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_order_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_register.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\actitivty_login_register.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\actitivty_login_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\reset_passowrd_dialog.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\reset_passowrd_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\address_rv_item.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\address_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\color_rv_item.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\color_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\activity_healthtips.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\activity_healthtips.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\size_rv_item.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\size_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\add_availability.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\add_availability.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\product_rv_item.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\product_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_search.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\cart_product_item.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\cart_product_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\update_healthtips.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\update_healthtips.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\list_fragmenttips.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\list_fragmenttips.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\myfeedbacklis_fragment.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\myfeedbacklis_fragment.xml"
+    },
+    {
+        "merged": "com.example.kelineyt.app-mergeDebugResources-54:/layout/activity_healthtips.xml",
+        "source": "com.example.kelineyt.app-main-57:/layout/activity_healthtips.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\scheduling_list_frgment.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\scheduling_list_frgment.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_base_category.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_base_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\available_details.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\available_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_product_details.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_product_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\feedback_fragment.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\feedback_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\activity_requestmedicine.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\activity_requestmedicine.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\special_rv_item.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\special_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_address.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_introdcution.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_introdcution.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_user_account.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_user_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\edit_feedback.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\edit_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\rating.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\rating.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_billing.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_billing.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\update_availability.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\update_availability.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\billing_products_rv_item.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\billing_products_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\best_deals_rv_item.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\best_deals_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\my_scheduling_list_frgment.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\my_scheduling_list_frgment.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_account_options.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_account_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\list_frgamentfeedback.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\list_frgamentfeedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\tip_list.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\tip_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\requestmedlist_fragment.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\requestmedlist_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\list_fragmentrequestmedicine.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\list_fragmentrequestmedicine.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_main_category.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_main_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\activity_shopping.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\activity_shopping.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-mergeDebugResources-54:\\layout\\fragment_cart.xml",
+        "source": "C:\\Users\\nuwan\\.gradle\\daemon\\7.4\\com.example.kelineyt.app-main-57:\\layout\\fragment_cart.xml"
+    }
+]

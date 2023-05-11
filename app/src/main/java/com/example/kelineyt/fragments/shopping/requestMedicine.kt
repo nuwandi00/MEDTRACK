@@ -28,6 +28,7 @@ import java.util.*
  * Use the [requestMedicine.newInstance] factory method to
  * create an instance of this fragment.
  */
+//initialize
 class requestMedicine : Fragment() {
     private lateinit var medicinename: EditText
     private lateinit var contactnumber: EditText
@@ -52,9 +53,12 @@ class requestMedicine : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+        //obtain an instance of posted class
         auth = FirebaseAuth.getInstance()
+        //Database connection
         dbref = FirebaseDatabase.getInstance().getReference("RequestMedicine")
 
+        //reference to UI components
         val view = inflater.inflate(R.layout.activity_requestmedicine, container, false)
         medicinename = view.findViewById(R.id.medname)
         contactnumber = view.findViewById(R.id.medcontact)
@@ -62,6 +66,7 @@ class requestMedicine : Fragment() {
         requestmedicine = view.findViewById(R.id.btn_request)
 
 
+        //button click
         requestmedicine.setOnClickListener {
             if (medicinename.text.isNotEmpty() && contactnumber.text.isNotEmpty() && email.text.isNotEmpty()) {
                 setmedicine()
@@ -72,7 +77,6 @@ class requestMedicine : Fragment() {
         }
         return view
     }
-
 
 
 

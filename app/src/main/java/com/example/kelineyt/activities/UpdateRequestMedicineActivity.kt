@@ -36,36 +36,46 @@ class UpdateRequestMedicineActivity: AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
         val user = auth.currentUser
 
+        //Database connection
         database = FirebaseDatabase.getInstance().getReference("RequestMedicine")
 
+        //reference to UI components
         edt_medName = findViewById(R.id.medname_detdelete)
         edt_medContact = findViewById(R.id.medcontact_edtdelete)
         edt_Email = findViewById(R.id.medemail_edtdelete)
         btn_updatemed = findViewById(R.id.btn_editmed)
         btn_cancelmed = findViewById(R.id.btn_deletemed)
 
+        //access medicine , contactNumber , email passed along with intent and initialize
         val bundle: Bundle? = intent.extras
         userMedicine = bundle?.getString("medicine name")
         userNumber = bundle?.getString("number")
         userEmail = bundle?.getString("email")
         RequestMedicineID = bundle?.getString("rID")
 
+        //set the text of EditText
         edt_medName.setText(userMedicine.toString())
         edt_medContact.setText(userNumber.toString())
         edt_Email.setText(userEmail.toString())
 
+        //update posts
         btn_updatemed.setOnClickListener {
+            //calling editPost function
             updateRequest()
         }
 
+        //delete posts
         btn_cancelmed.setOnClickListener {
+            //calling deletePost function
             deleteRequest()
         }
     }
 
     private fun deleteRequest() {
+        //assign post ID to post variable
         val feedback = RequestMedicineID.toString()
 
+        //remove post from firebase realtime database
         database.child(feedback).removeValue()
             .addOnCompleteListener{
                 Toast.makeText(this, "Request Medicine Deleted" , Toast.LENGTH_SHORT).show()
@@ -76,6 +86,7 @@ class UpdateRequestMedicineActivity: AppCompatActivity() {
     }
 
     private fun updateRequest() {
+        //assign post ID to post variable
         val requestmedicine = RequestMedicineID.toString()
         val userID : String = auth.currentUser?.uid.toString()
         val editMedicine = edt_medName.text.toString()

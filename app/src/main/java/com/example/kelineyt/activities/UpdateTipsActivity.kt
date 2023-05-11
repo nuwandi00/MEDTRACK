@@ -37,13 +37,16 @@ class UpdateTipsActivity: AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
         val user = auth.currentUser
 
+        //Database connection
         database = FirebaseDatabase.getInstance().getReference("HealthTips")
 
+        //set the text of EditText
         TipDocname = findViewById(R.id.doctor_Nameedts)
         TipsEditText = findViewById(R.id.health_tipsedts)
         btnTipsUpdate = findViewById(R.id.edt_tipsbtns)
         btnTipsDelete = findViewById(R.id.delete_tips3btnn)
 
+        //access doctorname , tips , unitprofit passed along with intent and initialize
         val bundle: Bundle? = intent.extras
         userDoctorNameTIP = bundle?.getString("DoctorsName")
         userTipsComment = bundle?.getString("HealthyTips")
@@ -51,23 +54,28 @@ class UpdateTipsActivity: AppCompatActivity() {
 
         Log.d(TAG ,HealthTipsID.toString())
 
+        //set the text of EditText
         TipDocname.setText(userDoctorNameTIP.toString())
         TipsEditText.setText(userTipsComment.toString())
 
-
+        //update posts
         btnTipsUpdate.setOnClickListener {
             updateHealthTip()
         }
 
+        //delete posts
         btnTipsDelete.setOnClickListener {
             deleteHealthTip()
         }
     }
 
     private fun deleteHealthTip() {
+        //assign post ID to post variable
         val Tips = HealthTipsID.toString()
 
+        //remove post from firebase realtime database
         database.child(Tips).removeValue()
+            //call addOnCompleteListener if post deleted successfully
             .addOnCompleteListener{
                 Toast.makeText(this, "Tips Deleted" , Toast.LENGTH_SHORT).show()
             }.addOnFailureListener {
@@ -77,18 +85,22 @@ class UpdateTipsActivity: AppCompatActivity() {
     }
 
     private fun updateHealthTip() {
+        //assign post ID to post variable
         val Tips = HealthTipsID.toString()
+        //get current user's userID
         val userID : String = auth.currentUser?.uid.toString()
         val editDoctorNameTIP = TipDocname.text.toString()
         val editTipsComment = TipsEditText.text.toString()
 
 
-
+// Update the database with the new healthy tips
         val updatedHealthyTips = Tips(userID , editDoctorNameTIP , editTipsComment )
 
         database.child(Tips).setValue(updatedHealthyTips)
+            //call addOnCompleteListener if post update successfully
             .addOnCompleteListener{
                 Toast.makeText(this , "Tips Updated" , Toast.LENGTH_SHORT).show()
+                // Call addOnFailureListener if there is an error while updating
             }.addOnFailureListener {
                 Toast.makeText(this , "Error" , Toast.LENGTH_SHORT).show()
             }
