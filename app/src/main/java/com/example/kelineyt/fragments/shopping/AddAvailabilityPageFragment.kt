@@ -1,20 +1,20 @@
 package com.example.kelineyt.fragments.shopping
 
+import android.app.DatePickerDialog
+import android.app.TimePickerDialog
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.EditText
-import android.widget.Toast
+import android.widget.*
 import androidx.navigation.fragment.findNavController
 import com.example.kelineyt.R
 import com.example.kelineyt.data.Scheduling
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import java.util.UUID
+import java.util.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -85,6 +85,77 @@ class AddAvailabilityPageFragment : Fragment() {
         from = view.findViewById(R.id.FromUpdate)
         to = view.findViewById(R.id.toUpdate)
         confirm = view.findViewById(R.id.Update)
+
+        // Inside onCreateView method
+
+// Create a Calendar instance
+        val calendar = Calendar.getInstance()
+
+// Set OnClickListener for the date EditText
+        date.setOnClickListener {
+            val year = calendar.get(Calendar.YEAR)
+            val month = calendar.get(Calendar.MONTH)
+            val day = calendar.get(Calendar.DAY_OF_MONTH)
+
+            // Create a DatePickerDialog and set its OnDateSetListener
+            val datePickerDialog = DatePickerDialog(requireContext(), { _: DatePicker, year: Int, month: Int, dayOfMonth: Int ->
+                // Set the selected date in the date EditText
+                val formattedDate = String.format("%02d-%02d-%d", dayOfMonth, month + 1, year)
+                date.setText(formattedDate)
+            }, year, month, day)
+
+            // Show the DatePickerDialog
+            datePickerDialog.show()
+        }
+        // Inside onCreateView method
+
+// Set OnClickListener for the from EditText
+        from.setOnClickListener {
+            val calendar = Calendar.getInstance()
+            val hour = calendar.get(Calendar.HOUR_OF_DAY)
+            val minute = calendar.get(Calendar.MINUTE)
+
+            // Create a TimePickerDialog and set its OnTimeSetListener
+            val timePickerDialog = TimePickerDialog(
+                requireContext(),
+                { _: TimePicker, hourOfDay: Int, minute: Int ->
+                    // Set the selected time in the from EditText
+                    val formattedTime = String.format("%02d:%02d", hourOfDay, minute)
+                    from.setText(formattedTime)
+                },
+                hour,
+                minute,
+                true
+            )
+
+            // Show the TimePickerDialog
+            timePickerDialog.show()
+        }
+
+// Set OnClickListener for the to EditText
+        to.setOnClickListener {
+            val calendar = Calendar.getInstance()
+            val hour = calendar.get(Calendar.HOUR_OF_DAY)
+            val minute = calendar.get(Calendar.MINUTE)
+
+            // Create a TimePickerDialog and set its OnTimeSetListener
+            val timePickerDialog = TimePickerDialog(
+                requireContext(),
+                { _: TimePicker, hourOfDay: Int, minute: Int ->
+                    // Set the selected time in the to EditText
+                    val formattedTime = String.format("%02d:%02d", hourOfDay, minute)
+                    to.setText(formattedTime)
+                },
+                hour,
+                minute,
+                true
+            )
+
+            // Show the TimePickerDialog
+            timePickerDialog.show()
+        }
+
+
 
         confirm.setOnClickListener {
             if(dName.text.isNotEmpty() && specility.text.isNotEmpty() && address.text.isNotEmpty() && date.text.isNotEmpty() && from.text.isNotEmpty() && to.text.isNotEmpty()) {
